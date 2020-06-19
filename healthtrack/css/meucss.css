@@ -1,0 +1,156 @@
+.container, .container-fluid{
+
+	background-color:RGB(220,225,230);
+}
+
+
+
+.row{
+
+	margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.table td {
+   text-align: center;
+}
+
+html {
+  background-color:#B0C4DE;
+}
+
+li {
+  list-style: none;
+}
+main{
+	border: 1px black solid;
+	border-color: #C0C0C0;
+	background-color:#B0C4DE !important ;
+
+
+	font-size: 50px;
+	text-align: center;
+  width:100%;
+}
+
+footer{
+  border: 1px black solid;
+  border-color: RGB(220,225,230);
+  background-color:#B0C4DE;
+
+  font-size: 50px;
+  text-align: center;
+  width:100%;
+  position: fixed;
+  height: 8%;
+  bottom: 0;
+
+
+}
+
+.btn btn-primary btn-lg btn-block {
+  border-color: RGB(220,225,230);
+}
+
+
+
+
+table {
+  border: 1px black solid;
+  border-color: #C0C0C0;
+  background-color:#B0C4DE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  height:100%;
+	margin: auto;
+	width: 50% !important;
+
+}
+
+header {
+	border: 1px black solid;
+	border-color: #C0C0C0;
+	background-color:#B0C4DE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 50px;
+	text-align: center;
+  width:100%;
+
+}
+
+#barracabeca {
+  width:100%;
+  background-color:#B0C4DE!important;
+
+}
+
+#cabecacentrallogin {
+	width:100%;
+  background-color:#B0C4DE!important;
+	margin-right: 0px !important
+}
+
+
+
+@media screen and (min-width: 1920px) {
+
+	main{
+		height:80vh;
+		background-color:#fff;
+    text-align: center;
+	}
+  header {
+  	border: 1px black solid;
+  	border-color: #C0C0C0;
+  	background-color:#B0C4DE;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	font-size: 50px;
+  	text-align: center;
+    width:100%;
+    margin-right: 100px
+  }
+}
+
+@media screen and (min-width: 980px) {
+
+	main{
+		height:65vh;
+		background-color:#fff;
+    text-align: center;
+	}
+
+  header {
+  	border: 1px black solid;
+  	border-color: #C0C0C0;
+  	background-color:#B0C4DE;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	font-size: 50px;
+  	text-align: center;
+    width:100%;
+    margin-right: 100px
+  }
+}
+
+@media screen and (min-width: 520px) {
+
+	main{
+		height:62vh;
+		background-color:#fff;
+    text-align: center;
+	}
+}
+
+@media screen and (min-width: 360px) {
+
+	main{
+		height:62vh;
+		background-color:#fff;
+    text-align: center;
+	}
+}
